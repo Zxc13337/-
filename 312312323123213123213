@@ -30,3 +30,11 @@ while True:
                 user_ball += 1
             if rand == 'б' and user == 'к':
                 rand_ball += 1
+elif user == 'с':
+            print('Ваши баллы - ', user_ball, '. Баллы вашего соперника - ', rand_ball, ".")
+        elif user == '-':
+            print('Ваши баллы - ', user_ball, '. Баллы вашего соперника - ', rand_ball, ".")
+            print('Конец игры! Заходите ещё!')
+            break
+        else:
+            print('Вводите к, н или б')
